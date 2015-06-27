@@ -27,6 +27,7 @@ if __name__ == '__main__':
     task_2 = Task(title='new_title', description='new description')
     print(task_1 is task_2)
     print(task_1 == task_2)
+    print(task_1)
 
 """
         'id': 3,
