@@ -5,9 +5,7 @@ import json
 
 
 class Task:
-    """
-
-        """
+    """ This class models for tasks from TASK API """
 
     def __init__(self, title, description, task_id=None, status=False, uri=None):
         self.id = task_id
